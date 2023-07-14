@@ -1,0 +1,46 @@
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+.container {
+
+    margin-top: 50px;
+    display: grid;grid-template-columns: repeat(3,1fr);
+    gap: 3em;
+    width: auto;
+    margin-left: 100px;
+    justify-content: space-around;
+
+}
+
+.box2 , .box4 , .box6{
+    margin-top: 130px;
+
+}
+
+.container img {
+    width: 250px;
+}
+
+
+
+
+@media screen and (max-width:576px) {
+    .header{
+        flex-direction:column ;
+    }
+    .container{
+
+
+        grid-template-columns: repeat(2,1fr);
+        
+
+    }
+   
+   
+   
+    
+}
